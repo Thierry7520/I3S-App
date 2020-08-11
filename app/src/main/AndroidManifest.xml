@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.i3sapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SeePlanningActivity" />
+        <activity
+            android:name=".AddPlanningActivity"
+            android:parentActivityName=".PlanningActivity" />
+        <activity android:name=".AdminsActivity" />
+        <activity
+            android:name=".PlanningActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ProjetActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".PartenaireHomeActivity" />
+        <activity android:name=".PartenaireLoginActivity" />
+        <activity
+            android:name=".PartenaireRegistrationActivity"
+            android:parentActivityName=".StartActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:parentActivityName=".StartActivity" />
+        <activity android:name=".StartActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

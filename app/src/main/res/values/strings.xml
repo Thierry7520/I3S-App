@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">I3S App</string>
+
+    <array name="genres">
+        <item>I3S</item>
+        <item>KINE VIE</item>
+        <item>EVENTS</item>
+    </array>
+
+</resources>
